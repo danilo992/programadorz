@@ -8,6 +8,7 @@
 
 h1 {
   padding: 25px;
+  font-weight: 900;
 }
 
 h1:hover {
@@ -26,7 +27,7 @@ h1:hover {
 .nav-bar ul {
   display: grid;
   grid-template-columns: auto auto auto;
-  margin: 0 -50px 0 0;
+ /* text-decoration: none;*/
 }
 
 .nav-bar ul li {
@@ -45,11 +46,37 @@ h1:hover {
   margin-top: 90px;
 }
 
-section h2 {
+article h2 {
   font-weight: 900;
 }
 
-section p {
+article a {
+  color: #12afec;
+  text-decoration: none;
+}
+
+article a:hover {
+  color: #c003d1;
+  text-decoration: none;
+}
+
+article p {
   margin-top: 70px;
   color: #12afec;
+  border-top: 1px dotted #c003d1;
+}
+
+@media screen and ( max-width: 775px ) {
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .container h1 {
+    text-align: center;
+  }
 }
