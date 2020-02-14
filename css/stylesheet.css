@@ -9,10 +9,12 @@
 h1 {
   padding: 25px;
   font-weight: 900;
+  border-left: 3px solid #12afec;
+  border-bottom: 5px solid #444;
 }
 
 h1:hover {
-  color: #12afec;
+  color: #444;
 }
 
 .container {
@@ -38,6 +40,15 @@ h1:hover {
   list-style: none;
   color: #12afec;
   background: #444;
+}
+
+.container p {
+  padding: 10px;
+  border-radius: 100px;
+  width: 49px;
+  height: 70px;
+  color: #000;
+  background: #fff;
 }
 
 /*STYLE MAIN*/
