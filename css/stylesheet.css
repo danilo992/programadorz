@@ -57,24 +57,25 @@ h1:hover {
   margin-top: 90px;
 }
 
-article h2 {
+.first-article h2 {
   font-weight: 900;
 }
 
-article a {
+.first-article a {
   color: #12afec;
   text-decoration: none;
 }
 
-article a:hover {
+.first-article a:hover {
   color: #c003d1;
   text-decoration: none;
 }
 
-article p {
+.first-article p {
   margin-top: 70px;
-  color: #12afec;
-  border-top: 1px dotted #c003d1;
+  color: #000;
+  border: 1px dotted #c003d1;
+  
 }
 
 @media screen and (min-width: 360px) and ( max-width: 775px ) {
