@@ -9,8 +9,8 @@
 h1 {
   padding: 25px;
   font-weight: 900;
-  border-left: 3px solid #12afec;
-  border-bottom: 5px solid #444;
+  border-left: 3px solid #e95420;
+  border-bottom: 5px solid #e95420;
 }
 
 h1:hover {
@@ -18,7 +18,7 @@ h1:hover {
 }
 
 .container {
-  background: #c003d1;
+  background: #111;
   color: #FFF;
   display: grid;
   grid-template-columns: auto auto auto;
@@ -34,12 +34,14 @@ h1:hover {
 
 .nav-bar ul li {
   list-style: none;
+  color: #FFF;
 }
 
 .nav-bar ul li:hover {
   list-style: none;
-  color: #12afec;
+  color: #e95420;
   background: #444;
+  border-radius: 7px;
 }
 
 .container p {
@@ -55,28 +57,35 @@ h1:hover {
 .container-sm {
   text-align: center;
   margin-top: 0;
-  background-color: rgb(207, 207, 207);
+  background-color: #326de6;
+  background-image: linear-gradient(to bottom left, rgba(21,58,138,0.16) 0, rgba(21,58,138,0.16) 49.9%, transparent 10%),
+  linear-gradient(to bottom right, rgba(50,109,230,0.5) 0, rgba(50,109,230,0.5) 49.9%, transparent 50%),
+  linear-gradient(to top left,rgb(48, 136, 207)  0%, rgb(48, 136, 207) 49.3%, rgba(255,255,255,0) 50%, rgba(255,255,255,0) 100%),
+  linear-gradient(74deg, #173d8b 0%, #326de6 92%);
+  color: #FFF;
 }
 
 h2 {
   font-weight: 900;
+  padding: 60px;
+  color: #FFF;
 }
 
 .first-article a {
-  color: #12afec;
+  color: #e95420;
   text-decoration: none;
 }
 
 .first-article a:hover {
-  color: #c003d1;
+  color: #FFF;
   text-decoration: none;
 }
 
 .first-article p {
-  margin-top: 70px;
-  color: #000;
-  border: 1px dotted #c003d1;
-  
+  margin-top: 40px;
+  color: #FFF;
+  background-color: rgb(0, 0, 0);
+  border: 1px dotted #e95420; 
 }
 
 @media screen and (min-width: 200px) and ( max-width: 775px ) {

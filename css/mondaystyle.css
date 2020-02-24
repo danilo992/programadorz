@@ -2,9 +2,13 @@
   width: 100px;
 }
 
+.monday-article {
+  text-align: justify;
+}
+
 .container-tches {
   margin-top: 50px;
-  background: #c003d1;
+  background: #12afec;
   border-radius: 10px;
   margin-bottom: 50px;
 }
