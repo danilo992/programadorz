@@ -1,3 +1,38 @@
 .monday-article img {
   width: 100px;
 }
+
+.container-tches {
+  margin-top: 50px;
+  background: #c003d1;
+  border-radius: 10px;
+  margin-bottom: 50px;
+}
+
+.container-tches h3 {
+  padding: 30px;
+  color: #fff;
+  font-weight: 900;
+  font-size: 37px;
+}
+
+/*CARD BOOTSTRAP4*/
+.card {
+  padding: 5px;
+  margin: 5px;
+}
+
+.card img {
+  width: 200px;
+}
+
+.card p {
+  font-size: 12px;
+}
+
+.card h5 {
+  background-color: #12afec;
+  color: #FFF;
+  border-radius: 10px;
+}
+

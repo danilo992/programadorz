@@ -52,12 +52,13 @@ h1:hover {
 }
 
 /*STYLE MAIN*/
-.container-sm section {
+.container-sm {
   text-align: center;
-  margin-top: 90px;
+  margin-top: 0;
+  background-color: rgb(207, 207, 207);
 }
 
-.first-article h2 {
+h2 {
   font-weight: 900;
 }
 
@@ -78,7 +79,7 @@ h1:hover {
   
 }
 
-@media screen and (min-width: 360px) and ( max-width: 775px ) {
+@media screen and (min-width: 200px) and ( max-width: 775px ) {
   * {
     margin: 0;
     padding: 0;
@@ -90,5 +91,8 @@ h1:hover {
   }
   .container h1 {
     text-align: center;
+  }
+  .none {
+    display: none;
   }
 }
