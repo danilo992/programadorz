@@ -20,6 +20,8 @@
   font-size: 37px;
 }
 
+
+.container-tches p { color: #000; }
 /*CARD BOOTSTRAP4*/
 .card {
   padding: 5px;
