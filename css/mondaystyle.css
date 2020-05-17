@@ -20,21 +20,16 @@
   font-size: 37px;
 }
 
-
 .container-tches p { color: #000; }
+
 /*CARD BOOTSTRAP4*/
 .card {
   padding: 5px;
   margin: 5px;
 }
 
-.card img {
-  width: 200px;
-}
-
-.card p {
-  font-size: 12px;
-}
+.card img { width: 200px; }
+.card p { font-size: 12px; }
 
 .card h5 {
   background-color: #12afec;
@@ -42,3 +37,19 @@
   border-radius: 10px;
 }
 
+.card-group { background-color: rgba(26, 23, 23, 0.911); }
+
+/* footer */
+.container-footer ul li {
+   list-style-type: none;
+}
+
+.container-footer { 
+  display: flex;
+  flex-direction: row;
+  padding: 0 0 0 30px;
+}
+
+.container-footer ul {
+  padding: 10px;
+}
