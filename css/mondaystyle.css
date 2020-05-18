@@ -40,16 +40,21 @@
 .card-group { background-color: rgba(26, 23, 23, 0.911); }
 
 /* footer */
-.container-footer ul li {
-   list-style-type: none;
-}
-
 .container-footer { 
   display: flex;
   flex-direction: row;
   padding: 0 0 0 30px;
 }
 
-.container-footer ul {
-  padding: 10px;
+.container-footer a { font-family: monospace}
+.container-footer a:hover { color: #6ae920; }
+.container-footer a:active { color: rgba(74, 236, 10, 0.5); }
+.container-footer ul { padding: 10px; }
+.container-footer ul li { list-style-type: none; }
+
+@media screen and (min-width: 200px) and ( max-width: 775px ) {
+  .container-footer {
+    display: flex;
+    flex-direction: column;
+  }
 }
